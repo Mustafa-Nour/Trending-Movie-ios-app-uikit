@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainViewController" customModule="MVVM_Practice__Movie_app_" customModuleProvider="target">
+            <connections>
+                <outlet property="activityIndicator" destination="QHb-s4-bsq" id="9gl-OQ-Kv3"/>
+                <outlet property="tableView" destination="mUW-oU-ohz" id="rzW-Jx-hu9"/>
+                <outlet property="view" destination="nRu-Sq-imf" id="zj0-Bw-j0n"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="nRu-Sq-imf">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="mUW-oU-ohz">
+                    <rect key="frame" x="0.0" y="118" width="393" height="666"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </tableView>
+                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="whiteLarge" id="QHb-s4-bsq">
+                    <rect key="frame" x="178" y="408" width="37" height="37"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="color" systemColor="systemGrayColor"/>
+                </activityIndicatorView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="kGJ-wl-t67"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="mUW-oU-ohz" firstAttribute="bottom" secondItem="kGJ-wl-t67" secondAttribute="bottom" id="E9S-nk-EGm"/>
+                <constraint firstItem="kGJ-wl-t67" firstAttribute="trailing" secondItem="mUW-oU-ohz" secondAttribute="trailing" id="dZ1-N2-m6U"/>
+                <constraint firstItem="mUW-oU-ohz" firstAttribute="top" secondItem="kGJ-wl-t67" secondAttribute="top" id="fPZ-Pg-PxX"/>
+                <constraint firstItem="mUW-oU-ohz" firstAttribute="leading" secondItem="kGJ-wl-t67" secondAttribute="leading" id="pAL-Wb-nPS"/>
+                <constraint firstItem="kGJ-wl-t67" firstAttribute="trailing" secondItem="mUW-oU-ohz" secondAttribute="trailing" id="xwc-H1-nsK"/>
+            </constraints>
+            <point key="canvasLocation" x="428" y="-13"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGrayColor">
+            <color red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

@@ -11,7 +11,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E57C53212F3E15E20095E949 /* MVVM Practice (Movie app).xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "MVVM Practice (Movie app).xcodeproj"; sourceTree = "<group>"; };
 		E5F20A712D61B85B0075903D /* MVVM Practice (Movie app).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM Practice (Movie app).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -48,13 +47,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E57C53332F3E15E20095E949 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		E5F20A682D61B85B0075903D = {
 			isa = PBXGroup;
 			children = (
@@ -105,7 +97,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1620;
-				LastUpgradeCheck = 2620;
+				LastUpgradeCheck = 1630;
 				TargetAttributes = {
 					E5F20A702D61B85B0075903D = {
 						CreatedOnToolsVersion = 16.2;
@@ -128,12 +120,6 @@
 			preferredProjectObjectVersion = 77;
 			productRefGroup = E5F20A722D61B85B0075903D /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = E57C53332F3E15E20095E949 /* Products */;
-					ProjectRef = E57C53212F3E15E20095E949 /* MVVM Practice (Movie app).xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				E5F20A702D61B85B0075903D /* MVVM Practice (Movie app) */,
@@ -172,6 +158,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "MVVM Practice (Movie app)/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -198,6 +185,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "MVVM Practice (Movie app)/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -273,7 +261,6 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -331,7 +318,6 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
-				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
