@@ -8,7 +8,7 @@ A modern, elegant iOS application built with **UIKit** that allows users to disc
 
 ---
 
-## ✨ Features
+##  Features
 
 - **Trending Dashboard**: Browse the latest movies from TMDB API with a sophisticated card-based UI.
 - **Dynamic Ratings**: Movie scores are color-coded (Green/Orange/Red) for quick visual assessment.
@@ -19,7 +19,7 @@ A modern, elegant iOS application built with **UIKit** that allows users to disc
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
 | ☀️ Light Mode | 🌙 Dark Mode | ❤️ Movie Details |
 |:---:|:---:|:---:|
@@ -27,7 +27,7 @@ A modern, elegant iOS application built with **UIKit** that allows users to disc
 
 ---
 
-## 🛠️ Tech Stack & Architecture
+## Tech Stack & Architecture
 
 - **Language**: Swift 5.10
 - **Framework**: UIKit (Programmatic UI & XIBs)
@@ -46,7 +46,7 @@ graph TD
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -69,7 +69,7 @@ graph TD
 
 ---
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
