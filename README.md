@@ -1,4 +1,4 @@
-# Trending Movies 🎬
+# Trending Movies 
 
 ![Platform](https://img.shields.io/badge/Platform-iOS-blue?style=for-the-badge&logo=apple)
 ![Language](https://img.shields.io/badge/Language-Swift_5-orange?style=for-the-badge&logo=swift)
